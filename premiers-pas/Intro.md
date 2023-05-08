@@ -21,7 +21,7 @@ A la découverte d'un monde sans limite
 2. [Le marché des composants](#le-marché)
 3. [Les systèmes domotiques existants](#les-systèmes-domotique)
 4. [Mes premières expériences](#mes-expériences)
-5. [Puis, ça à dérappé](#plus-loin-que-prévu)
+5. [Puis, ça à dérappé...](#plus-loin-que-prévu)
 
 ---
 
@@ -116,8 +116,6 @@ Etant open source, hyper connu / utilisé et très fortement maintenu je suis pa
 
 <img src="./images/systemes/home-assistant.png" alt="Home Assistant" height="150px">
 
-> En effet, première version parue en 2013 : j'ai du retard à rattraper !
-
 --
 
 ### Le gros avantage
@@ -132,13 +130,61 @@ Voici la phrase qui ma quasiment convaincu instantanément :
 
 En fouillant un peu avant de me lancer, j'ai remarqué aussi que l'outil était compabtile avec Raspberry Pi.
 
-<img src="./images/systemes/raspberry.png" alt="Raspberry Pi" height="250px">
+<img src="./images/systemes/raspberry.png" alt="Raspberry Pi" height="150px">
 
-Ça tombe bien, j'en avais une à recycler ! ♻️
+> Ça tombe bien, j'en avais une à recycler ! ♻️
 
 ---
 
 ## Mes expériences
+
+> Allez c'est parti pour l'aventure ! 🤝
+
+--
+
+### Home Assistant 🛠️
+
+On installe [Home Assistant sur la raspberry](https://www.home-assistant.io/installation/raspberrypi/).
+
+--
+
+### Shelly France 🇫🇷
+
+On commande ce qu'il faut :
+
+- Des blocs prises murales
+- Des boutons
+- Des prises
+
+--
+
+### On paramètre tout bien 👨‍💻
+
+![Configuration Home Assistant](./images/exeperiences/configure.png)
+
+> Magie, ça trouve des trucs tout seul !
+
+--
+
+### Programation de scénarios 🤔
+
+![Scénarios](./images/exeperiences/scenarios.png)
+
+--
+
+### Récupération des metriques 📈
+
+![Metrique energie](./images/exeperiences/analytic-enery.png)
+
+Consomation totale sur une semaine
+
+--
+
+### Récupération des metriques 📈
+
+![Metrique power](./images/exeperiences/analytic-power.png)
+
+Consomation réele sur une semaine
 
 ---
 
